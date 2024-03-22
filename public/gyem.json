@@ -1,0 +1,24 @@
+
+   [
+    {
+      "id": 1,
+      "type": "Basic Membership",
+      "monthly_fee": 50.00,
+      "features": ["Access to gym facilities during regular hours", "Basic workout equipment"]
+    },
+    {
+      "id": 2,
+      "type": "Premium Membership",
+      "monthly_fee": 80.00,
+      "features": ["Access to gym facilities at all hours", "Additional amenities such as sauna", "steam room", "and swimming pool"]
+    },
+    {
+      "id": 3,
+      "type": "Student Membership",
+      "monthly_fee": 40.00,
+      "requirements": "Valid student ID",
+      "features": ["Access to gym facilities during designated hours", "Discounted rates for students"]
+    }
+   
+  ]
+

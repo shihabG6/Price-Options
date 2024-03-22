@@ -1,10 +1,20 @@
 import "./App.css";
+import Navber from "./Components/Navber/Navber";
+import PriceOptions from "./Components/PriceOptions/PriceOptions";
 
 function App() {
   return (
-    <>
-      <h1 className="text-2xl bg-green-400">Vite + React</h1>
-    </>
+    <body>
+      <header>
+        <nav>
+          <Navber></Navber>
+        </nav>
+      </header>
+
+      <main>
+        <PriceOptions></PriceOptions>
+      </main>
+    </body>
   );
 }
 
