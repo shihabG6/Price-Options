@@ -1,6 +1,11 @@
+
 import "./App.css";
+import BarCharts from "./Components/BarChart/BarChart";
+import LineChart from "./Components/LIneChart/LineChart";
 import Navber from "./Components/Navber/Navber";
 import PriceOptions from "./Components/PriceOptions/PriceOptions";
+
+
 
 function App() {
   return (
@@ -13,6 +18,8 @@ function App() {
 
       <main>
         <PriceOptions></PriceOptions>
+        <LineChart></LineChart>
+        <BarCharts></BarCharts>
       </main>
     </body>
   );

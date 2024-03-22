@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 import { HiCheckCircle } from "react-icons/hi";
 
 const Featur = ({featur}) => {
@@ -9,5 +9,7 @@ const Featur = ({featur}) => {
     </div>
   );
 };
-
+Featur.propTypes={
+  featur:PropTypes.string.isRequired
+}
 export default Featur;
